@@ -1,0 +1,2 @@
+
+This example describes a simple Internet user forum software project.
