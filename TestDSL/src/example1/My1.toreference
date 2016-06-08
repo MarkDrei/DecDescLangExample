@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<toreference:Collection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:toreference="http://dreiucker.net/toreference" name="col1">
-  <children name="one"/>
-  <children name="two"/>
-</toreference:Collection>
