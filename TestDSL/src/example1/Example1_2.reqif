@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="rmf-8705e147-d0bf-41b9-9281-828f7b6cff64">
+    <REQ-IF-HEADER IDENTIFIER="rmf-a6e2e7b5-fa71-43e1-a862-99c7ba4615a9">
       <COMMENT>Created by: Mark</COMMENT>
       <CREATION-TIME>2016-06-08T16:59:05.189+02:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
@@ -19,6 +19,11 @@
         <SPEC-OBJECT-TYPE IDENTIFIER="_i0gAZC2JEeawXsRfXiQg4Q" LAST-CHANGE="2016-06-08T16:59:05.189+02:00" LONG-NAME="Requirement Type">
           <SPEC-ATTRIBUTES>
             <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_i0gAZS2JEeawXsRfXiQg4Q" LAST-CHANGE="2016-06-08T16:59:05.189+02:00" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_i0gAYy2JEeawXsRfXiQg4Q</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_mJDC0C5kEeaeTOfTYu2rgQ" LAST-CHANGE="2016-06-09T19:06:56.434+02:00" LONG-NAME="ID">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_i0gAYy2JEeawXsRfXiQg4Q</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
@@ -43,6 +48,11 @@
                 <ATTRIBUTE-DEFINITION-STRING-REF>_i0gAZS2JEeawXsRfXiQg4Q</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
             </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_mJDC0C5kEeaeTOfTYu2rgQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
           </VALUES>
           <TYPE>
             <SPEC-OBJECT-TYPE-REF>_i0gAZC2JEeawXsRfXiQg4Q</SPEC-OBJECT-TYPE-REF>
@@ -53,6 +63,11 @@
             <ATTRIBUTE-VALUE-STRING THE-VALUE="Another Spec Object">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_i0gAZS2JEeawXsRfXiQg4Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_mJDC0C5kEeaeTOfTYu2rgQ</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
             </ATTRIBUTE-VALUE-STRING>
           </VALUES>
@@ -96,6 +111,7 @@
           <configuration:ProrSpecViewConfiguration specification="_i0gAai2JEeawXsRfXiQg4Q">
             <configuration:columns>
               <configuration:Column label="Description" width="277"/>
+              <configuration:Column label="ID" width="100"/>
             </configuration:columns>
             <configuration:leftHeaderColumn>
               <configuration:Column label="Lead Header Column" width="30"/>
