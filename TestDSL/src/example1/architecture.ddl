@@ -10,7 +10,7 @@ Decision dataBackend {
 	Alternatives: "Store data in binary files" 
 		reasoning "More difficult to scale out"
 	
-	Reference: Req01
+	Reference: Req02
 }
 
 Decision databaseSystem {
@@ -22,4 +22,6 @@ Decision databaseSystem {
 	
 	Alternatives: "Any other database system" 
 		reasoning "Would need to train Asok, no time/money for that is available"
+		
+	Reference: Req02
 }

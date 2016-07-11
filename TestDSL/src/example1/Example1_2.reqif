@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0" xmlns:id="http://pror.org/presentation/id">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="rmf-a6e2e7b5-fa71-43e1-a862-99c7ba4615a9">
+    <REQ-IF-HEADER IDENTIFIER="rmf-3430d036-f39f-4204-a156-0e40920ae4e2">
       <COMMENT>Created by: Mark</COMMENT>
       <CREATION-TIME>2016-06-08T16:59:05.189+02:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
@@ -41,9 +41,9 @@
         </SPECIFICATION-TYPE>
       </SPEC-TYPES>
       <SPEC-OBJECTS>
-        <SPEC-OBJECT IDENTIFIER="_i0gAaC2JEeawXsRfXiQg4Q" LAST-CHANGE="2016-06-08T17:00:03.746+02:00">
+        <SPEC-OBJECT IDENTIFIER="_i0gAaC2JEeawXsRfXiQg4Q" LAST-CHANGE="2016-06-13T19:44:11.540+02:00">
           <VALUES>
-            <ATTRIBUTE-VALUE-STRING THE-VALUE="I start editing here">
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="I started editing here">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_i0gAZS2JEeawXsRfXiQg4Q</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
@@ -66,6 +66,23 @@
               </DEFINITION>
             </ATTRIBUTE-VALUE-STRING>
             <ATTRIBUTE-VALUE-STRING THE-VALUE="Req02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_mJDC0C5kEeaeTOfTYu2rgQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_i0gAZC2JEeawXsRfXiQg4Q</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_O_aG8DFHEeaveb4074QFtQ" LAST-CHANGE="2016-06-13T20:10:00.092+02:00" LONG-NAME="A long name">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirement in second document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_i0gAZS2JEeawXsRfXiQg4Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Req02_1">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_mJDC0C5kEeaeTOfTYu2rgQ</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
@@ -101,6 +118,25 @@
             </SPEC-HIERARCHY>
           </CHILDREN>
         </SPECIFICATION>
+        <SPECIFICATION IDENTIFIER="_J2E1oDFHEeaveb4074QFtQ" LAST-CHANGE="2016-06-13T11:13:51.625+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Another Requirements Document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_i0gAZy2JEeawXsRfXiQg4Q</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_i0gAZi2JEeawXsRfXiQg4Q</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_O_wFMDFHEeaveb4074QFtQ" LAST-CHANGE="2016-06-13T11:14:26.909+02:00" IS-EDITABLE="true">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_O_aG8DFHEeaveb4074QFtQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
       </SPECIFICATIONS>
     </REQ-IF-CONTENT>
   </CORE-CONTENT>
@@ -117,6 +153,16 @@
               <configuration:Column label="Lead Header Column" width="30"/>
             </configuration:leftHeaderColumn>
           </configuration:ProrSpecViewConfiguration>
+          <configuration:ProrSpecViewConfiguration specification="_J2E1oDFHEeaveb4074QFtQ">
+            <configuration:columns>
+              <configuration:Column label="Description" width="334"/>
+              <configuration:Column label="Long Name" width="34"/>
+              <configuration:Column label="ID" width="34"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
         </configuration:specViewConfigurations>
         <configuration:generalConfiguration>
           <configuration:ProrGeneralConfiguration>
@@ -127,6 +173,13 @@
             </configuration:labelConfiguration>
           </configuration:ProrGeneralConfiguration>
         </configuration:generalConfiguration>
+        <configuration:presentationConfigurations>
+          <configuration:ProrPresentationConfigurations>
+            <configuration:presentationConfigurations>
+              <id:IdConfiguration datatype="_i0gAYy2JEeawXsRfXiQg4Q" prefix="REQ-" count="1"/>
+            </configuration:presentationConfigurations>
+          </configuration:ProrPresentationConfigurations>
+        </configuration:presentationConfigurations>
       </configuration:ProrToolExtension>
     </REQ-IF-TOOL-EXTENSION>
   </TOOL-EXTENSIONS>
