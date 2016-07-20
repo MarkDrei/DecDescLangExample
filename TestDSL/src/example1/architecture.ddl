@@ -2,7 +2,7 @@
 Decision dataBackend {
 	Issue: "The data (users, topics, user posts...) needs to be persisted"
 	Status: decided
-	Solution: "Store data in a database" 
+	Solution: "Store data in a database" causes "Flexible solution usable with many vendors"
 		reasoning "We need a flexible solution that support many concurrent users"
 		
 	Owner: dilbert
@@ -10,7 +10,9 @@ Decision dataBackend {
 	Alternatives: "Store data in binary files" 
 		reasoning "More difficult to scale out"
 	
-	Reference: Req02
+	Assumptions: Annahme: "asdasd"
+	
+	Requirements: Req02
 }
 
 Decision databaseSystem {
@@ -23,5 +25,8 @@ Decision databaseSystem {
 	Alternatives: "Any other database system" 
 		reasoning "Would need to train Asok, no time/money for that is available"
 		
-	Reference: Req02
+	Requirements: { 
+			Req02
+			Req01
+		}
 }
